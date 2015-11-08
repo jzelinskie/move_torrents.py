@@ -15,7 +15,7 @@ def update_path(fastresume, find_path, replace_path):
     other is for libtorrent.
     """
     fastresume['qBt-savePath'] = fastresume['qBt-savePath'].replace(
-	        qBT_format(find_path),
+            qBT_format(find_path),
             qBT_format(replace_path)
     )
     fastresume['save_path'] = fastresume['save_path'].replace(
